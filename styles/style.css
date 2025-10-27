@@ -65,7 +65,6 @@
 }
 
 .cover {
-  
   background-size: cover;
   background-position: center;
   position: relative;
@@ -74,7 +73,8 @@
   text-transform: uppercase;
   color: #fff;
 }
-.cover-flex{
+
+.cover-flex {
    justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -177,25 +177,23 @@
 }
 
 .lots-item {
-  
   min-height: 596px;
   width: 334px;
   background-size: cover;
   background-position: center;
 }
 
-.lots-link, .article
- {
+.lots-link, .article {
   height: 100%;
 }
 
-.lots-link{
+.lots-link {
   text-decoration: none;
   display: flex;
   position: relative;
 }
 
-.article-flex{
+.article-flex {
   z-index: 2;
    justify-content: space-between;
   display: flex;
@@ -215,7 +213,6 @@
 }
 
 .lots-button {
-  
   display: block;
   padding-top: 32px;
   padding-left: 64px;
@@ -285,7 +282,6 @@
   white-space: pre-line;
   display: flex;
   flex-direction: column;
-  
 }
 
 .about-title {
