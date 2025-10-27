@@ -232,10 +232,9 @@
   font-size: 22px;
   text-transform: uppercase;
   line-height: 120%;
-  text-decoration: underline;
-  text-decoration-thickness: 1px; 
   font-weight: 700;
   text-underline-offset: 3px;
+  text-decoration: underline 1px #fff;
 }
 
 .lots-text {
