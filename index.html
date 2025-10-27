@@ -13,8 +13,8 @@
     <header class="header">
       <nav class="nav">
         <ul class="top-menu">
-          <li class="top-menu-item-active">
-            <a href="#" class="top-menu-link-active">главная</a>
+          <li class="top-menu-item-no-bullit">
+            <a href="#" class="top-menu-link-no-bullit">главная</a>
           </li>
           <li class="top-menu-item">
             <a href="#" class="top-menu-link">посмотреть лоты</a>
@@ -28,14 +28,15 @@
         ><img class="logo-black" src="./images/logo-black.svg" alt="Логотип"
       /></a>
       <address class="address header-address">
-        <a class="number" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <span class="real-address">наб. Принсенграхт 263- 265, Амстердам</span>
+        <a class="contacts" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contacts" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="real-address">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
     <main class="main">
       <section class="cover">
-        <div class="overlay">
+        <div class="overlay"></div>
+        <div class="cover-flex">
           <h1 class="cover-text">
             <span class="aligned-text aligned-text_left">оно</span>
             <span class="aligned-text aligned-text_center">тебе</span>
@@ -45,66 +46,65 @@
             <p class="description-text">
               Аукцион вещей, в которые никто не верил
             </p>
-            <button class="description-button">Сделать ставку</button>
+            <button class="description-button" type="button">
+              Сделать ставку
+            </button>
           </div>
         </div>
       </section>
-
       <section class="lots">
         <h2 class="lots-title">Лоты</h2>
         <ul class="lots-list">
-          <li class="lots-item lots-item-start">
+          <li class="lots-item lots-item-film">
             <a href="#" class="lots-link">
-              <article class="article">
-                <div class="overlay">
-                  <p class="lots-text-title">
-                    Фильм режиссёра, который бросил киношколу
-                  </p>
-                  <p class="lots-text">
-                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                    ставка, если бы вы не знали, что режиссёр — Пол Томас
-                    Андерсон?
-                  </p>
-                </div>
-              </article></a
-            >
+              <article class="article"><div class="overlay"></div></article>
+              <div class="article-flex">
+                <h3 class="lot-title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="lots-text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </div>
+            </a>
           </li>
-          <li class="lots-item lots-item-center">
+          <li class="lots-item lots-item-book">
+            <a href="#" class="lots-link"
+              ><article class="article"><div class="overlay"></div></article>
+              <div class="article-flex">
+                <h3 class="lot-title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="lots-text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="lots-item lots-item-picture">
             <a href="#" class="lots-link"
               ><article class="article">
-                <div class="overlay">
-                  <p class="lots-text-title">
-                    Книга, где описан один скучный день из жизни рекламного
-                    агента
-                  </p>
-                  <p class="lots-text">
-                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
-                    и с переходами на древнеанглийский. В ней одновременно
-                    рассказывается о 16 июня 1904 года и об истории литературы,
-                    начиная с античных времён. И это всё накладывается на
-                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                    Джеймса Джойса?
-                  </p>
-                </div>
-              </article></a
-            >
-          </li>
-          <li class="lots-item lots-item-end">
-            <a href="#" class="lots-link"
-              ><article class="article">
-                <div class="overlay">
-                  <p class="lots-text-title">
-                    Картина, которую повторит даже 5-летний сын маминой подруги
-                  </p>
-                  <p class="lots-text">
-                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                    котиков... Сколько бы вы на такое поставили, если бы не
-                    знали, что это — одна из революционных работ Кандинского?
-                  </p>
-                </div>
-              </article></a
-            >
+                <div class="overlay"></div>
+              </article>
+              <div class="article-flex">
+                <h3 class="lot-title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="lots-text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </div>
+            </a>
           </li>
         </ul>
         <a href="#" class="lots-button">посмотреть больше</a>
@@ -122,22 +122,20 @@
             <h2 class="about-title">Об аукционе</h2>
             <div class="about-gap">
               <p class="about-description">
-                Здесь вы не встретите очередное пафосное собрание невероятно<br />
-                дорогого антиквариата. Наши лоты вообще не должны были
-                попасть<br />
-                ни на один аукцион. Потому что кому нужен дневник девочки-<br />подростка
-                или картина, которую может нарисовать даже ребёнок?<br />
+                Здесь вы не встретите очередное пафосное собрание невероятно
+                дорогого антиквариата. Наши лоты вообще не должны были попасть
+                ни на один аукцион. Потому что кому нужен дневник девочки-
+                подростка или картина, которую может нарисовать даже ребёнок?
                 Кому нужны все эти странные вещи, созданные любителями?
               </p>
               <p class="about-description">
-                Слишком сложные или, наоборот, слишком простые. Опережающие своё
-                время. В пух и прах растерзанные критиками. Непринятые и
-                непонятые. Когда-то они казались просто неудачными. Но,
-                несмотря<br />
-                на критику, кажущуюся простоту или сложность, сейчас без этих
-                лотов невозможно представить современную культуру. Когда в эти
-                вещи не верил никто, продолжали верить их создатели. И сейчас
-                эти лоты стали культовыми.
+                Слишком сложные или, наоборот, слишком простые. Опережающие
+                своё время. В пух и прах растерзанные критиками. Непринятые и
+                непонятые. Когда-то они казались просто неудачными. Но, несмотря
+                на критику, кажущуюся простоту или сложность, сейчас без этих лотов
+                невозможно представить современную культуру. Когда в эти вещи не
+                верил никто, продолжали верить их создатели. И сейчас эти лоты 
+                стали культовыми.
               </p>
             </div>
           </div>
@@ -146,14 +144,14 @@
     </main>
     <footer class="footer">
       <address class="address footer-address">
-        <a class="number" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <span class="real-address">наб. Принсенграхт 263-265, Амстердам</span>
+        <a class="contacts" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contacts" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="real-address">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="menu">
         <ul class="bottom-menu">
-          <li class="bottom-menu-item-active">
-            <a href="#" class="bottom-menu-link-active">главная</a>
+          <li class="bottom-menu-item-no-bullit">
+            <a href="#" class="bottom-menu-link-no-bullit">главная</a>
           </li>
           <li class="bottom-menu-item">
             <a href="#" class="bottom-menu-link">посмотреть лоты</a>
@@ -165,17 +163,17 @@
       </nav>
       <ul class="social">
         <li class="social-item">
-          <a href="#" class="social-link"
+          <a href="#" class="social-link" target="_blank"
             ><img class="social-img" src="./images/yt.svg" alt="youtube"
           /></a>
         </li>
         <li class="social-item">
-          <a href="#" class="social-link"
+          <a href="#" class="social-link" target="_blank"
             ><img class="social-img" src="./images/vk.svg" alt="vk"
           /></a>
         </li>
         <li class="social-item">
-          <a href="#" class="social-link"
+          <a href="#" class="social-link" target="_blank"
             ><img
               class="social-img"
               src="./images/pinterest.svg"
