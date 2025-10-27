@@ -164,6 +164,10 @@
 
 .lots-list {
   list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 25px;
 }
 
 .lots-item {
@@ -192,13 +196,6 @@
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: center;
-}
-
-.lots-list {
-  flex-wrap: wrap;
-  justify-content: center;
-  display: flex;
-  gap: 25px;
 }
 
 .lots-button {
