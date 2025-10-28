@@ -23,7 +23,7 @@
   text-underline-offset: 4px;
 }
 
-.top-menu-link-no-bullit {
+.top-menu-link-active {
   text-decoration: none;
 }
 
@@ -189,15 +189,16 @@
 
 .lots-link {
   text-decoration: none;
-  display: flex;
   position: relative;
 }
 
 .article-flex {
+  height: 100%;
   z-index: 2;
-   justify-content: space-between;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
+  
 }
 
 .lots-item-film {
@@ -277,13 +278,13 @@
 }
 
 .about-gap {
-  white-space: pre-line;
+  gap:24px;
   display: flex;
   flex-direction: column;
 }
 
 .about-title {
-  margin: 3px 402px 80px auto;
+  margin: 4px 402px 103px auto;
   color: #000;
   font-weight: 700;
   text-transform: uppercase;
@@ -332,7 +333,7 @@
   letter-spacing: 0;
 }
 
-.bottom-menu-link-no-bullit {
+.bottom-menu-link-active {
   text-decoration: none;
 }
 
